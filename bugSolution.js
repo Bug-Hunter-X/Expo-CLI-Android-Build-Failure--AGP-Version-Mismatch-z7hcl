@@ -1,0 +1,5 @@
+The solution to this bug involves ensuring compatibility between the AGP version expected by Expo and the one used in your Android project.  You can achieve this by either:
+
+1. **Updating Android Studio:**  Update Android Studio and its associated components (including the AGP) to the latest stable version. This often resolves compatibility issues.
+2. **Modifying Gradle files (Use with caution):**  Manually specify the AGP version in the `gradle` files of your Android project. This approach requires careful consideration of dependencies and might not always be the best solution.  Consult the Expo documentation for the correct AGP version compatible with your Expo SDK version.
+3. **Using a Compatible Expo SDK Version:** If updating is not an option, research which Expo SDK version is compatible with your existing Android Studio AGP version. Downgrading or upgrading the Expo SDK might be necessary.
